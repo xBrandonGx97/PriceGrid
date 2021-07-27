@@ -1,0 +1,117 @@
+body {
+  background: #C3D4DB;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5%;
+}
+
+/* Price Grid */
+
+.price-grid {
+  margin: 0 auto;
+}
+
+/* Price Grid Card */
+
+.price-grid .card {
+  border-radius: 7px;
+}
+
+.price-grid .card .card-body {
+  padding: 5% 5%;
+}
+
+/* Title */
+
+.price-grid .card .card-body .card-title {
+  color: #67c0ba;
+  font-weight: 700;
+}
+
+/* Subtext */
+
+.price-grid .card .card-body .card-subtext {
+  color: #c6db5c;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+/* Text */
+
+.price-grid .card .card-body .card-text {
+  color: #a1a6ac;
+  line-height: 0.7;
+}
+
+.price-grid .card .bottom-cols {
+  padding-top: 30px;
+}
+
+.price-grid .card .bottom-cols .left-col {
+  background-color: #2bb3b1;
+  color: #fff;
+  padding: 40px 40px;
+}
+
+/* Pricing component */
+
+.price-grid .card .bottom-cols .pricing {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Pricing header */
+
+.price-grid .card .bottom-cols .pricing h3 {
+  display: inline;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+/* Pricing sub text */
+
+.price-grid .card .bottom-cols .pricing span {
+  opacity: 0.8;
+}
+
+/* Pricing text */
+
+.price-grid .card .bottom-cols .pricing p {
+  padding-top: 10px;
+  opacity: 0.8;
+}
+
+/* Button */
+
+.price-grid .card .bottom-cols .btn-success {
+  background-color: #bfdf32;
+  border: none;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.price-grid .card .bottom-cols .btn-success:hover {
+  background-color: #a3be2a;
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.price-grid .card .bottom-cols .right-col {
+  background-color: #4abebd;
+  color: #fff;
+  padding: 40px 40px;
+}
+
+.price-grid .card .bottom-cols .right-col h4 {
+  padding-bottom: 10px;
+}
+
+/* List */
+
+.price-grid .card .bottom-cols ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+}
